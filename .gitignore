@@ -1,0 +1,43 @@
+﻿# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+*.iml
+.idea/
+*.log
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Gradle
+.gradle/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
+
+# Spring Boot
+application-local.properties
+application-dev.properties
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Personal
+TODO_PRIVATE.md
+NOTES_PERSONAL.md
