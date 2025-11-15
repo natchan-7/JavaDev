@@ -49,7 +49,21 @@ JavaDev/
 │   ├── TodoApp.java       # ToDoアプリ（コンソール版）
 │   └── README.md          # 実践プロジェクトガイド
 │
-└── 05-Portfolio/           # ポートフォリオ作品（今後追加予定）
+├── 05-Portfolio/           # ポートフォリオ作品（今後追加予定）
+│
+└── 06-Exercises/           # バグ修正チャレンジ（練習問題）
+    ├── Basics/            # Java基礎のバグ修正問題
+    │   ├── Challenge01_Calculator.java
+    │   ├── Challenge02_ArrayProcessor.java
+    │   └── Challenge03_GradeCalculator.java
+    ├── OOP/               # OOPのバグ修正問題
+    │   ├── Challenge04_StudentManagement.java
+    │   └── Challenge05_ShapeHierarchy.java
+    ├── SpringBoot/        # Spring Bootのバグ修正問題
+    │   └── Challenge06_BookAPI.java
+    ├── Solutions/         # 解答例
+    │   └── Challenge01_Calculator_Solution.java
+    └── README.md          # 練習問題ガイド
 ```
 
 ## 学習ロードマップ
@@ -81,6 +95,12 @@ JavaDev/
 - 公開可能なアプリケーション作成
 - デプロイとセキュリティ対策
 
+### 6. バグ修正チャレンジ（06-Exercises）
+- デバッグスキルの習得
+- よくある間違いパターンの学習
+- 問題解決能力の向上
+- **難易度**: 初級〜上級（6つの練習問題）
+
 ## クイックスタート
 
 ### 1. Spring Bootアプリの起動
@@ -109,6 +129,19 @@ java HelloWorld
 cd 04-Practice
 javac TodoApp.java
 java practice.TodoApp
+```
+
+### 4. バグ修正チャレンジに挑戦
+
+```bash
+cd 06-Exercises
+# README.mdを読んで問題を選ぶ
+cat README.md
+
+# 例: Challenge01を実行
+cd Basics
+javac Challenge01_Calculator.java
+java Challenge01_Calculator
 ```
 
 ## 開発フロー
