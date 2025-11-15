@@ -1,13 +1,19 @@
 package com.learning;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
- * Hello world!
- *
+ * Spring Boot Application Entry Point
+ * Java/Spring Boot学習用メインアプリケーション
  */
-public class App 
+@SpringBootApplication
+public class App
 {
-    public static void main( String[] args )
+    public static void main(String[] args)
     {
-        System.out.println( "Hello World!" );
+        SpringApplication.run(App.class, args);
+        System.out.println("Spring Boot Application Started!");
+        System.out.println("Visit: http://localhost:8080");
     }
 }

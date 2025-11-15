@@ -1,20 +1,32 @@
 package com.learning;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Unit test for simple App.
+ * Spring Boot Application Test
+ * JUnit 5を使用したテストクラス
  */
-public class AppTest 
+@SpringBootTest
+public class AppTest
 {
     /**
-     * Rigorous Test :-)
+     * アプリケーションコンテキストが正常にロードされることを確認
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void contextLoads() {
+        assertTrue(true, "Application context should load successfully");
+    }
+
+    /**
+     * 基本的なテストサンプル
+     */
+    @Test
+    public void basicTest() {
+        String expected = "Hello";
+        String actual = "Hello";
+        assertTrue(expected.equals(actual), "Strings should match");
     }
 }
